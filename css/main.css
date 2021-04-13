@@ -193,3 +193,10 @@ hr{
         width: 80%;
     }
 }
+
+@media screen and (max-height: 675px) {
+    .b-2-1{
+        transform: translateY(-50px);
+        height: 250px;
+    }
+}
