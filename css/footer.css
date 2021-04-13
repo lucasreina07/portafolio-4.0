@@ -1,0 +1,39 @@
+.footer{
+    position: fixed;
+    height: 100px;
+    width: 100%;
+    z-index: 5;
+    color: white;
+    bottom: 0;
+}
+
+.b-20{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 90%;
+}
+
+.b-20-l{
+    border-bottom: 3px solid black;
+    font-size: 20px;
+    height: 35px;
+    letter-spacing: 2px;
+    text-align: center;
+    margin: 0px 20px;
+}
+
+.b-20-l:hover{
+    border-bottom: 3px solid #ffc4ff;
+    transition: all 0.2s ease-in-out;
+}
+
+@media screen and (max-width: 500px) {
+    .b-20-l{
+        margin: 0px 10px;
+        font-size: 18px;
+        height: 40px;
+        width: 100px;
+    }
+}
