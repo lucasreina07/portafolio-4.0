@@ -17,6 +17,7 @@
 
 .b-20-l{
     border-bottom: 3px solid black;
+    cursor: pointer;
     font-size: 20px;
     height: 35px;
     letter-spacing: 2px;
@@ -25,7 +26,7 @@
 }
 
 .b-20-l:hover{
-    border-bottom: 3px solid #ffc4ff;
+    border-bottom: 3px solid #e087e0;
     transition: all 0.2s ease-in-out;
 }
 

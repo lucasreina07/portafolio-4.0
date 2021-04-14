@@ -7,64 +7,88 @@
     <title></title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
+    <div class="bg">
+        <div class="color-bg">
+            <div class="b-sb-1-1 fas fa-backspace close" id="close" onclick="closesb()"></div>
+            <div class="fd-bg">
+                
+            </div>
+        </div>
+    </div>
     <div class="bloque">
         <div class="hilera">
             <div class="b-1">
-                <div class="b-1-1">
-                    Hola Soy Lucas<br>
-                    Un Programador
-                </div>
-                <div class="b-1-2">
-                    Me dedico a la programacion Front-End y Back-End
-                    Tengo la capacidad de dar solociones automatizadas
-                    con la arquitectura JAVA e integracion y analisis
-                    de datos con SQL.
+                <div class="b-wraper" id="psn-1">
+                    <div class="b-1-1">
+                        Hola Soy, <b>Lucas</b>
+                        Un Programador
+                    </div>
+                    <div class="b-1-2">
+                        Me dedico a la programacion Front-End y Back-End
+                        Tengo la capacidad de dar solociones automatizadas
+                        con la arquitectura JAVA e integracion y analisis
+                        de datos con SQL.
+                    </div>
                 </div>
             </div>
             <dov class="b-1">
-                <div class="b-2-1">
-                    <div>
-                        <div class="wlc">Bienvenido</div>
+                <div class="b-2-1" id="psn-2">
+                    <div class="b-wlc">
+                        <div class="wlc" id="wlc">
+                            <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_hluo7ags.json"  background="transparent"  speed="1"  style="width: 400px; height: 400px;"  loop  autoplay></lottie-player>
+                        </div>
                         <div class="wraper-circle">
                             <div class="circl"></div>
-                        </div>
-                    </div>
-                    <div class="sb">
-                        <div class="b-sb-1">
-                            <div class="b-sb-1-1">
-                                <div class="sb-t">Lorem Ipsum</div>
-                                <div class="sb-p">Lorem Ipsum</div>
-                            </div>
-                            <hr>
-                            <div class="b-sb-1-1">
-                                <div class="sb-t">Lorem Ipsum</div>
-                                <div class="sb-p">Lorem Ipsum</div>
-                            </div>
-                            <hr>
-                            <div class="b-sb-1-1">
-                                <div class="sb-t">Lorem Ipsum</div>
-                                <div class="sb-p">Lorem Ipsum</div>
-                            </div>
                         </div>
                     </div>
                 </div>
             </dov>
         </div>
     </div>
+    <div class="bloque bloque-position">
+        <div class="hilera">
+            <div class="b-2">
+                <div class="sb" id="sb">
+                    <div class="b-sb-1">
+                        <div class="b-sb-1-1">
+                            <div class="sb-t">
+                                Soy Lucas Reina, un programador dedicado a la Arquitectura Java,
+                                frameworks Spring y automatizacion de tareas repetitivas con OOP,
+                                en la capital de la ciudad de Panamá.
+                            </div>
+                            <div class="sb-p">
+                                En los ultimos 3 años me e dedicado a aprender y pulir mis
+                                conocimientos en desarrollo web y programacion ya sea escarbando en la web,
+                                leyendo libros cursos y experiencias laborales a lo largo de mi carrera.
+
+                                Soy un apacionado al codigo abierto y nuevas tecnologias informaticas
+                                estoy enamorado del lenguaje de programacion Java su sintaxis, su manera
+                                estricta, modo de manejar las clases, sus interfaces y como puede ser tan robusto en el
+                                mercado.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="footer">
         <div class="hilera">
             <div class="b-20">
-                <div class="b-20-l">Sobre Mi</div>
+                <div class="b-20-l" onclick="showsb()">Sobre Mi</div>
                 <div class="b-20-l">Skills</div>
                 <div class="b-20-l">Mas</div>
             </div>
         </div>
     </div>
-    <script src="" async defer></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="js/main.js" async defer></script>
 </body>
 
 </html>
